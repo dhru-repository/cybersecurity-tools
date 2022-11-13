@@ -10,7 +10,6 @@ awk '{print $3}' grid.txt #print third column for the grid.
 awk '{print $4}' grid.txt #print fourth column for the grid.
 awk '{print NF}' grid.txt #identify field in each line
 awk '{print NR}' grid.txt #prints out line numbers
-awk '{print $1}' dpkg.log
 awk 'BEGIN { for (i = 1; i <= 5; ++i) print i }' # for loop in awk
 #awk '{ printf("%04d\n", $1) }'
 awk 'BEGIN {print "Comma seperator"}'
