@@ -1,6 +1,6 @@
 awk 'BEGIN {print "Hello from awktutorial.awk file"}' #awktutorial.awk
 # hashtag are used to write comment inside awk script and even in terminal 
-# why am I writing inside a file? it is to keep are commands in an organized fasion.
+
 
 awk 'BEGIN {print "printing dpkg.log file"}'
 awk '{print $0}' dpkg.log #print dpkg.log file field 0 to print entire file
