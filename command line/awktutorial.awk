@@ -3,8 +3,7 @@ awk 'BEGIN {print "Hello from awktutorial.awk file"}' #awktutorial.awk
 
 
 awk 'BEGIN {print "printing dpkg.log file"}'
-awk '{print $0}' dpkg.log #print dpkg.log file field 0 to print entire file
-awk '{print $0}' grid.txt #print grid file
+awk '{print $0}' grid.txt #print grid file filed $0 means all files
 awk '{print $1}' grid.txt #print first column for the grid.
 awk '{print $2}' grid.txt #print second column for the grid.
 awk '{print $3}' grid.txt #print third column for the grid.
